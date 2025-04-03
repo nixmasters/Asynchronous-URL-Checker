@@ -67,9 +67,9 @@ async def main():
 
                 #dodajem requestove u listu taskova
                 if(method=='GET' ):
-                    tasks.append(provjeriUrl(client,url,method='GET',token=token))
+                    tasks.append(provjeriUrl(client,url,method=method,token=token))
                 elif(method=='POST' ):
-                    tasks.append(provjeriUrl(client, url, method='POST',data=data,token=token))
+                    tasks.append(provjeriUrl(client, url, method=method,data=data,token=token))
             #pokrecem sve requestove asinhrono i stavljam ih u rezultate
             rezultati = await asyncio.gather(*tasks)
 
