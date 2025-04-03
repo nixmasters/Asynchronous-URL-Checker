@@ -1,0 +1,40 @@
+[
+    {
+        "url": "https://wowconnect.me",
+        "status_code": 200,
+        "response_time": 0.578,
+        "method": "GET"
+    },
+    {
+        "url": "https://admin.wowconnect.me/",
+        "status_code": 200,
+        "response_time": 1.062,
+        "method": "GET"
+    },
+    {
+        "url": "https://wowconnect.me/null",
+        "status_code": 404,
+        "response_time": null,
+        "method": "GET",
+        "error": "HTTP Status Error: Client error '404 Not Found' for url 'https://wowconnect.me/null'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+        "url": "https://ovajsajtnepostoji123.com",
+        "status_code": null,
+        "response_time": null,
+        "method": "GET",
+        "error": "Request Error: [Errno 11001] getaddrinfo failed"
+    },
+    {
+        "url": "https://www.facebook.com",
+        "status_code": 200,
+        "response_time": 0.406,
+        "method": "GET"
+    },
+    {
+        "url": "https://dev.wowconnect.me/api/card/get-my-cards?userId=UPE9QJOWsfVA97JU0BLh0ezVuC43&filter=available",
+        "status_code": 200,
+        "response_time": 1.094,
+        "method": "GET"
+    }
+]
