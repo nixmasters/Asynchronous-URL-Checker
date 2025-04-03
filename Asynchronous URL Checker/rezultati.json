@@ -51,10 +51,10 @@
         "method": "POST"
     },
     {
-        "url": "GET",
+        "url": "https://ovajsajtnepostoji123.com",
         "status_code": null,
         "response_time": null,
         "method": "POST",
-        "error": "Request Error: Request URL is missing an 'http://' or 'https://' protocol."
+        "error": "Request Error: [Errno 11001] getaddrinfo failed"
     }
 ]
